@@ -128,8 +128,8 @@ const sidebarItemVariants = {
 
 const TEAM_MEMBERS = [
   { name: "Rashmi", role: "Project Lead & Frontend Architect", image: "https://picsum.photos/seed/rashmi/200/200" },
-  { name: "Shreya", role: "UI/UX Designer & Motion Specialist", image: "https://picsum.photos/seed/shreya/200/200" },
-  { name: "Nitin", role: "Backend Engineer & Database Admin", image: "https://picsum.photos/seed/nitin/200/200" },
+  { name: "Shreya", role: "Backend Engineer & Motion Specialist", image: "https://picsum.photos/seed/shreya/200/200" },
+  { name: "Nitin", role: "UI/UX Designer & Database Admin", image: "https://picsum.photos/seed/nitin/200/200" },
   { name: "Sneha", role: "AI Integration & Security Specialist", image: "https://picsum.photos/seed/sneha/200/200" },
 ];
 
@@ -161,9 +161,6 @@ const Navbar = ({ user, onOpenProfile, onToggleSidebar, isDarkMode, toggleDarkMo
           {[1,2,3,4,5].map(i => (
             <div key={i} className="flex items-center gap-2">
               <div className="w-1 h-1 bg-emerald-500 rounded-full animate-pulse"></div>
-              <span className="text-[8px] font-black text-emerald-600/60 uppercase tracking-widest">
-                Node {i*100+24} Status: Optimized // Latency: {Math.floor(Math.random() * 10)}ms // Quantum Encryption: Active
-              </span>
             </div>
           ))}
         </div>
