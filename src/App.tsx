@@ -188,24 +188,21 @@ const Navbar = ({ user, onOpenProfile, onToggleSidebar, isDarkMode, toggleDarkMo
               isDarkMode ? "text-white" : "text-slate-900"
             )}>IntelliCall</span>
           </Link>
-<div className="flex items-center justify-start md:justify-start gap-6 md:gap-8 
-                overflow-x-auto no-scrollbar py-2 px-4 md:px-0 
-                text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
-  
-  <Link to="/" className="hover:text-emerald-600 transition-colors whitespace-nowrap shrink-0">
+<div className="flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-2 md:gap-8 px-4 md:px-0 text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
+  <Link to="/" className="hover:text-emerald-600 transition-colors whitespace-nowrap">
     Home
   </Link>
 
-  <Link to="/about" className="hover:text-emerald-600 transition-colors whitespace-nowrap shrink-0">
+  <Link to="/about" className="hover:text-emerald-600 transition-colors whitespace-nowrap">
     About
   </Link>
 
   {user && (
     <Link 
       to="/chat" 
-      className="text-emerald-600 flex items-center gap-2 whitespace-nowrap shrink-0 border-l border-slate-700 pl-4 md:border-0 md:pl-0"
+      className="text-emerald-600 flex items-center gap-1.5 md:gap-2 whitespace-nowrap"
     >
-      <Activity className="w-3.5 h-3.5" />
+      <Activity className="w-3 h-3" />
       <span>Network</span>
     </Link>
   )}
