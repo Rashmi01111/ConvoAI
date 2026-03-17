@@ -1,0 +1,5 @@
+{
+  "name": "Intelli-Call",
+  "description": "An advanced real-time chat application with AI-powered assistance and smart summarization.",
+  "requestFramePermissions": ["camera", "microphone"]
+}
