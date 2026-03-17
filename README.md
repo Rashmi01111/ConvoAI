@@ -1,20 +1,112 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 💬 ConvoAI – Real-Time Chat Application
 
-# Run and deploy your AI Studio app
+NexaChat is a modern **real-time chat application** built using the **MERN stack**. It allows users to communicate instantly through one-to-one and group chats, with seamless real-time updates and a clean user interface.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/22f22aaa-5f02-4cc1-855d-13b987f445c5
+## 🚀 Features
 
-## Run Locally
+* 🔐 User Authentication (Signup & Login)
+* 💬 Real-Time Messaging
+* 👥 One-to-One & Group Chats
+* 🔔 Instant Notifications
+* 🟢 Online / Offline Status
+* 🧑‍💼 User Profile Management
+* 📱 Responsive Design
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Frontend**
+
+* React.js
+* Axios
+* Context API
+
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB (Mongoose)
+
+**Real-Time Communication**
+
+* Socket.io
+
+---
+
+## 📁 Project Structure
+
+```
+/frontend    → React Application  
+/backend     → Node.js + Express Server  
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/nexachat.git
+cd nexachat
+```
+
+### 2. Install Dependencies
+
+```bash
+cd frontend
+npm install
+
+cd ../backend
+npm install
+```
+
+### 3. Setup Environment Variables
+
+Create a `.env` file inside the **backend** folder and add:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+---
+
+### 4. Run Application
+
+```bash
+# Start Backend
+cd backend
+npm start
+
+# Start Frontend
+cd frontend
+npm start
+```
+
+---
+
+## 🎯 Future Enhancements
+
+* 📞 Audio/Video Calling
+* 📎 File Sharing
+* 🤖 AI-based Chat Features
+* 📊 Chat Analytics Dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Rashmi Sharma**
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
