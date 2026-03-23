@@ -1,6 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
+export default {
+  build: {
+    chunkSizeWarningLimit: 1500
+  }
+}
 
 export default defineConfig({
   plugins: [react()],
