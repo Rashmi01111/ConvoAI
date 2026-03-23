@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 AI Studio App
 
-# Run and deploy your AI Studio app
+This project is an AI-powered application built using modern web technologies. It includes features like AI chat, summarization, and real-time communication.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/22f22aaa-5f02-4cc1-855d-13b987f445c5
+## 📌 Live App
 
-## Run Locally
+👉 https://ai.studio/apps/22f22aaa-5f02-4cc1-855d-13b987f445c5
 
-**Prerequisites:**  Node.js
+---
 
+## ⚙️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- Real-time: Socket.io
+- AI: Google Gemini API
+
+---
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
