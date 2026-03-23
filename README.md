@@ -6,7 +6,7 @@ This project is an AI-powered application built using modern web technologies. I
 
 ## 📌 Live App
 
-👉 https://ai.studio/apps/22f22aaa-5f02-4cc1-855d-13b987f445c5
+
 
 ---
 
